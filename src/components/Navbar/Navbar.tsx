@@ -1,16 +1,18 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Navbar.css";
 import { CiMenuBurger } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import logo from "./img/Frame.png";
 import logos from "./img/Frame 142.png";
 import like from "./img/Frame 7.png";
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
     setToggle(!toggle);
   };
+
   return (
     <div className="navbar">
       <div className="nav container">

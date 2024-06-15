@@ -1,8 +1,8 @@
-import React from "react";
 import "./Home.css";
 import hero from "./img/Frame 8.png";
 import women from "./img/Снимок экрана 2024-06-15 194507.png";
 import women2 from "./img/Rectangle 5.png";
+
 const Home = () => {
   return (
     <div className="container">
@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div className="women">
         <div className="women_text">
-          <h1>Seedra helps to grow fast and efficiant</h1>
+          <h1>Seedra helps to grow fast and efficient</h1>
           <p>
             SEEDRA Spinach Seeds - contains 600 seeds in 2 Packs and
             professional instructions created by PhD Helga George
@@ -20,7 +20,7 @@ const Home = () => {
             Be sure of our quality - the freshest batches of this season.
             Non-GMO, Heirloom - our seeds were tested and have the best
             germination ratings. Your easy growing experience is our guarantee
-            Spinach commom culinary uses: salads, soups, smoothies, lasagne,
+            Spinach common culinary uses: salads, soups, smoothies, lasagne,
             pizza, pies, risotto, and more
           </p>
           <p>
@@ -47,7 +47,7 @@ const Home = () => {
             Be sure of our quality - the freshest batches of this season.
             Non-GMO, Heirloom - our seeds were tested and have the best
             germination ratings. Your easy growing experience is our guarantee
-            Spinach commom culinary uses: salads, soups, smoothies, lasagne,
+            Spinach common culinary uses: salads, soups, smoothies, lasagne,
             pizza, pies, risotto, and more
           </p>
           <p>
