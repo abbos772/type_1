@@ -1,0 +1,118 @@
+.navbar {
+  box-shadow: 0px 4px 12px 0px rgba(207, 207, 207, 0.25);
+  height: 72px;
+  background: rgb(255, 255, 255);
+}
+.nav0 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 52px;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav1 p {
+  /* Regular 14 */
+  color: rgb(112, 115, 124);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 178.19%;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+}
+.nav1 h4 {
+  color: rgb(214, 214, 214);
+}
+.search {
+  width: 285px;
+  height: 48px;
+  box-sizing: border-box;
+  /* light_grey_stroke */
+
+  border-radius: 71px;
+  display: flex;
+}
+.search input {
+  border: 1px solid rgb(213, 213, 213);
+  flex: 1;
+  padding: 20px;
+  border-radius: 71px;
+  outline: 0;
+  background-color: 0;
+}
+.menu2 {
+  display: none;
+}
+.menu {
+  display: none;
+  border: 0;
+  font-size: 40px;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  padding-top: 15px;
+  color: black !important;
+  z-index: 100;
+}
+.flex_nav {
+  display: flex;
+  padding-top: 12px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+@media (max-width: 1200px) {
+  .wish {
+    display: none;
+  }
+  .menu2 {
+    display: block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .menu {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .flex_nav {
+    padding-left: 20px;
+    padding-top: 1px;
+  }
+  .nav1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+  }
+  .nav0 {
+    color: black;
+    position: absolute;
+    flex-wrap: wrap;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    background: rgb(225, 225, 225);
+    padding: 30px 0;
+    box-shadow: 0 3px 5px #0002;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: transform 0.3s ease;
+    transform-origin: top;
+    transform: scaleY(0);
+    z-index: 10;
+  }
+
+  .nav0.show {
+    transform: scaleY(1);
+  }
+}
