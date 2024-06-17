@@ -1,16 +1,75 @@
-.hero {
+.hero_admin {
   background-image: url(./img/F.png);
   max-width: 1240px;
-  background-repeat: no-repeat;
   width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
   height: 550px;
   position: relative;
 }
 .hero_text {
   position: absolute;
-  max-width: 536px;
+  right: 85px;
+  bottom: 35px;
+  max-width: 534px;
   width: 100%;
   border-radius: 29px;
   padding: 20px;
+  line-height: 2.5;
+  gap: 15px;
   background: rgb(255, 255, 255);
+}
+.search_admin {
+  width: 471px;
+  height: 56px;
+  box-sizing: border-box;
+
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 4px;
+  display: flex;
+  margin-top: 5px;
+}
+.search_admin input {
+  flex: 1;
+  padding: 20px;
+  outline: 0;
+  border: 0;
+}
+textarea {
+  flex: 1;
+  outline: 0;
+  border: 1px solid rgb(234, 234, 234);
+  padding: 20px;
+  width: 471px;
+  height: 133px;
+}
+.send {
+  width: 160px;
+  height: 51px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0;
+  background: rgb(53, 151, 64);
+  /* Medium 16 */
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 178.19%;
+  letter-spacing: -3.5%;
+}
+.btn_text {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.btn_text p {
+  /* Regular 14 */
+  color: rgb(112, 115, 124);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 178.19%;
+  letter-spacing: 0%;
+  text-align: left;
 }
