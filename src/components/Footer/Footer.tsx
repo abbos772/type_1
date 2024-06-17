@@ -1,5 +1,6 @@
 import "./Footer.css";
 import logo from "../Navbar/img/Frame.png";
+import like from "../Navbar/img/Frame 142.png";
 const Footer = () => {
   return (
     <div className="footer">
@@ -17,7 +18,10 @@ const Footer = () => {
           <p>|</p>
           <p>Privacy Policy</p>
         </div>
-        <div className="foot1"></div>
+        <div className="foot1">
+          <img src={like} alt="" />
+          <p>All rights reserved</p>
+        </div>
       </div>
     </div>
   );
