@@ -45,6 +45,25 @@
   letter-spacing: 0%;
   text-align: left;
 }
+.product_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  padding-top: 120px;
+}
+.product_flex h3 {
+  /* H2 semibold 36 */
+  color: rgb(31, 37, 51);
+
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -5%;
+  text-align: left;
+}
 @media (max-width: 1200px) {
   .womenn {
     display: flex;

@@ -2,6 +2,7 @@ import "./Home.css";
 import hero from "./img/Frame 8.png";
 import women from "./img/Снимок экрана 2024-06-15 194507.png";
 import women2 from "./img/Rectangle 5.png";
+import Product from "../Products/Product";
 
 const Home = () => {
   return (
@@ -56,6 +57,10 @@ const Home = () => {
             produce this American-made product
           </p>
         </div>
+      </div>
+      <div className="product_flex">
+        <h3>Meet our team</h3>
+        <Product />
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Admin from "./components/Admin/Admin";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/" element={<Home />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
